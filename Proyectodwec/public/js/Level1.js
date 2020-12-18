@@ -267,12 +267,7 @@ class Level1 extends Phaser.Scene {
             
              //change bananas positions
             if(this.banana1.y > 550){
-               /*this.banana3.x=240;
-               this.banana3.y=12;
-               this.banana2.x=350;
-               this.banana2.y=12;
-               this.banana1.x=600;
-               this.banana1.y=12;*/
+               
 
                if(this.player==1){
                 this.socket.emit('BananaLocation');
